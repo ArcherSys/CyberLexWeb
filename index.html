@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>CyberLexWeb</title>
+<link rel="stylesheet" href="/core/bootstrap/css/bootstrap.min.css">
+<script src="/core/bootstrap/js/bootstrap.js"></script>
+
+<script src="/core/js/jquery.js"></script>
+<script src="/core/js/archersysos.js"></script>
+<script src="/core/js/angularjs/angular.min.js"></script>
+<script src="app.js">
+
+</script>
+</head>
+<body ng-app="CyberLex">
+<div class="container">
+<div class="main" ng-controller="HomeController">
+   <h1>{{ title }}</h1>
+   <div ng-repeat="words in dictionary">
+     
+      <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">{{ words.word }}</h3>
+        </div>
+     <div class"panel-body">{{ words.definition }}</div>
+     <div class="panel-footer">{{ words.edate | date}};  (<div ><span class="likes" ng-click="plusOne($index)">{{ words.likes }} likes</span>,<span class="dislikes" ng-click="minusOne($index)">{{ words.dislikes }} dislikes</span></div>)</div>
+   </div>
+</div>
+</div>
+</body>
+</html>
