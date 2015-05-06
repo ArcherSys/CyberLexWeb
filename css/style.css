@@ -1,0 +1,36 @@
+
+.likes{
+background-color: red;
+color: white;
+font-size: 20px;
+border-radius: 6px;
+font-family: Segoe UI, Trebuchet MS, Roboto;
+width: 1.5%;
+-webkit-transform-style: preserve-3d;
+height: 1.5%;
+
+
+}
+
+.dislikes {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    width: 1.5%;
+    height: 1.5%;
+    font-family: Segoe UI,Trebuchet MS,Roboto;
+}
+
+.panel {
+    font-family: Segoe UI, Trebuchet MS, Roboto;
+    text-align: center;
+    font-size: medium;
+}
+
+.panel-body {
+    height: 15%;
+    width: 25%;
+}
+
+.ng-binding {}

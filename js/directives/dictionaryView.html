@@ -1,0 +1,9 @@
+<div ng-repeat="words in info">
+     
+      <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">{{ words.word }}</h3>
+        </div>
+     <div class"panel-body">{{ words.definition }}</div>
+     <div class="panel-footer">{{ words.edate | date}};  (<div ><span class="likes" ng-click="plusOne($index)">{{ words.likes }} likes</span>,<span class="dislikes" ng-click="minusOne($index)">{{ words.dislikes }} dislikes</span></div>)</div>
+   </div>
+</div>
