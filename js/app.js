@@ -10,3 +10,5 @@ CyberLexWeb.DictionaryEntry = function(word, definition, picture){
     
  
 };
+
+          

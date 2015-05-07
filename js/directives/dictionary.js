@@ -1,4 +1,4 @@
-CyberLexWeb.DictionaryEntry("dictionary", function(){
+CyberLexWeb.directive("dictionary", function(){
     return {
    restrict: "E",
    scope: {

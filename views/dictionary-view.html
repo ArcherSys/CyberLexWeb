@@ -1,0 +1,9 @@
+
+<div class="container" id="dictionary" ng-view>
+<div class="main" ng-controller="HomeController">
+   <h1>{{ title }} - {{ today | date }} </h1>
+
+<div  ng-repeat="word in dictionary">
+  <dictionary info="word"></dictionary>
+   
+</div>
