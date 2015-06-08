@@ -1,6 +1,6 @@
 
-var CyberLexWeb = angular.module("CyberLex",[]);
-CyberLexWeb.DictionaryEntry = function(word, definition, picture){
+ArcherSysOS.Applications[0] = angular.module("CyberLex",[]);
+ArcherSysOS.Applications[0].DictionaryEntry = ArcherSysOS.defineClass(function(word,definition,picture){
     this.word = word;
     this.definition = definition;
     this.picture = picture; 
@@ -9,6 +9,6 @@ CyberLexWeb.DictionaryEntry = function(word, definition, picture){
     this.dislikes = 0;
     
  
-};
+},{},{});
 
           

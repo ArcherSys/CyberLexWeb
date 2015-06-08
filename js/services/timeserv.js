@@ -1,4 +1,4 @@
-CyberLexWeb.factory("timeserv", ['$http', function($http) {
+ArcherSysOS.Applications[0].factory("timeserv", ['$http', function($http) {
   return $http.get('http://localhost:80/core/config/time-config.json')
      .success(function(data){
               return data;

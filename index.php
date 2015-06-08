@@ -7,6 +7,8 @@
 
 <script src="/core/js/jquery.js"></script>
 <script src="/core/js/archersysos.js"></script>
+
+<script src="/core/js/archersysos-applications.js"></script>
 <script src="/core/js/angularjs/angular.min.js"></script>
 
 <link rel="stylesheet" href="css/style.css">
@@ -16,7 +18,9 @@
 <div class="container" id="dictionary">
 <div class="main" ng-controller="HomeController">
    <h1>{{ title }} - {{ today | date }} </h1>
+<div class="form-group">
 
+</div>
 <div  ng-repeat="word in dictionary">
   <dictionary info="word"></dictionary>
  </div>  

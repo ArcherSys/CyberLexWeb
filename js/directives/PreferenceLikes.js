@@ -1,4 +1,4 @@
-CyberLexWeb.directive("PreferenceLikes", function(){
+ArcherSysOS.Applications[0].directive("PreferenceLikes", function(){
   return {
    restrict: "E",
    scope: {},
